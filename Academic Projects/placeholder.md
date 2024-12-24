@@ -1,6 +1,6 @@
 # CMIS 310 (Computer Systems and Architecture)
 
-##Description
+## Description
 
 A study of the fundamental concepts of computer architecture and factors that influence the performance of a system. 
 The aim is to apply practical skills to computer systems architecture. 
