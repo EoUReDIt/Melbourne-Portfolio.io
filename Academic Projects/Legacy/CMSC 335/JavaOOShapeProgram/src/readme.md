@@ -31,7 +31,6 @@ The project consists of the following files:
 
 ### Supporting Files
 - **`menu.txt`**: A text file listing the menu options for constructing shapes.
-- **`package.bluej`**: A configuration file for the BlueJ IDE, defining dependencies and layout information.
 
 ## Program Flow
 1. **Welcome Message**: The program starts by displaying a welcome message and the main menu.
