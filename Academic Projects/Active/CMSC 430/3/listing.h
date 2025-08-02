@@ -1,0 +1,25 @@
+/* CMSC 430 Compiler Theory and Design
+   Project 2
+   UMGC CITE
+   Summer 2025
+   Melbourne Anderson 
+   
+   File copied from Project 1
+*/
+
+
+// This file contains the function prototypes for the functions that produce
+// the compilation listing
+
+enum ErrorCategories {LEXICAL, SYNTAX, GENERAL_SEMANTIC, DUPLICATE_IDENTIFIER,
+	UNDECLARED};
+
+void firstLine();
+void nextLine();
+int lastLine();
+void appendError(ErrorCategories errorCategory, const char* message);
+
+
+// Moved utility function declarations
+int doubleToInt(double d);
+int parse_char_literal(const char* text);
