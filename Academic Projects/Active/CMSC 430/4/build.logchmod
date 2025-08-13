@@ -1,0 +1,6 @@
+bison -d -v parser.y
+parser.y:118.9-14: error: %empty on non-empty rule
+  118 | 	%empty
+      |         ^~~~~~
+parser.y: warning: fix-its can be applied.  Rerun with option '--update'. [-Wother]
+make: *** [makefile:15: tokens.h] Error 1
